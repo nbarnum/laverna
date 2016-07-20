@@ -46,6 +46,11 @@ appHelper = {
             label   : 'File',
             submenu : [
                 {
+                    label: `Hide Laverna`,
+                    accelerator: "Command+H",
+                    role: "hide"
+                },
+                {
                     label       : 'Quit',
                     accelerator : 'CmdOrCtrl+Q',
                     click       : function() {
